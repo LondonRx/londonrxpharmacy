@@ -1,0 +1,1 @@
+document.querySelectorAll('form[data-demo-form]').forEach(f=>f.addEventListener('submit',()=>{const s=f.querySelector('.success');if(s)setTimeout(()=>s.style.display='block',300)}));
